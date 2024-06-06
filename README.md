@@ -31,3 +31,8 @@ git clone git@github.com:lex51/go_rent_trello.git
 crontab -e
 */3 * * * * cd /home/user_and_path/go_rent_trello && /home/user_and_path/go_rent_trello/env/bin/python3 /home/user_and_path/go_rent_trello/manage_trello.py
 ```
+
+## to run on local
+```bash
+(with env) python3 manage_trello.py
+```
